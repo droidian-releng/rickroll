@@ -16,6 +16,7 @@ VARIABLES=(
 
 declare -a ORGS
 ORGS=(
+	droidian-devices
 	droidian-images
 	droidian
 	droidian-releng
