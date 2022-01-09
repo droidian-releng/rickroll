@@ -78,7 +78,7 @@ for org in ${ORGS[@]}; do
 
 			echo "Setting ${var} for repo ${repo} (target_branch is ${target_branch})"
 			drone secret add \
-				${repo} \
+				--repository "${repo}" \
 				--name "${var}" \
 				--data "${!var}"
 		done
