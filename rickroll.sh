@@ -44,7 +44,7 @@ for org in ${ORGS[@]}; do
 	for repo in ${repos}; do
 		echo "Processing ${repo}..."
 		case "${repo}" in
-			"hybris-mobian-releng/rickroll" | "hybris-mobian-releng/docker-images" | "hybris-mobian-releng/build-snippets")
+			"droidian-releng/rickroll" | "droidian-releng/docker-images" | "droidian-releng/build-snippets" | "droidian-devices/devices.droidian.org")
 				# Skip
 				echo "Skipping ${repo}..."
 				continue
